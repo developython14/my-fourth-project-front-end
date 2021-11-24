@@ -15,7 +15,7 @@
 
 .background-container  {
     background-color: hsl(257, 40%, 49%);
-    background-image: url(/images/illustration-mockups.svg),url(/images/bg-desktop.svg) , url(/images/logo.svg) ;
+    background-image: url(../images/illustration-mockups.svg),url(../images/bg-desktop.svg) , url(../images/logo.svg) ;
     background-size: 500px,contain,200px ;
     background-position:20px 120px ,0px 0px ,20px 20px  ;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ i:hover {
     color:hsl(300, 69%, 71%);
 }
 
-@media only screen and (max-width: 375px) {
+@media (max-width: 375px) {
     
 .principal-containe {
     background-color: #d7cdcd;
@@ -82,7 +82,7 @@ i:hover {
 
     .background-container  {
         background-color: hsl(257, 40%, 49%);
-        background-image: url(/images/illustration-mockups.svg),url(/images/bg-mobile.svg) , url(/images/logo.svg) ;
+        background-image: url(../images/illustration-mockups.svg),url(../images/bg-mobile.svg) , url(../images/logo.svg) ;
         background-size: 280px,contain,200px ;
         background-position:10px 120px ,0px 0px ,20px 20px  ;
         background-repeat: no-repeat;
@@ -91,7 +91,6 @@ i:hover {
         position: relative;
         left: 5%;
         top: 5%;
-        background-image: url(.);
     }
     .text_area {
         text-align: center;
