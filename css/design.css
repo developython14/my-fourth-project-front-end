@@ -15,7 +15,7 @@
 
 .background-container  {
     background-color: hsl(257, 40%, 49%);
-    background-image: url(./images/illustration-mockups.svg),url(./images/bg-desktop.svg) , url(./images/logo.svg) ;
+    background-image: url(/images/illustration-mockups.svg),url(/images/bg-desktop.svg) , url(/images/logo.svg) ;
     background-size: 500px,contain,200px ;
     background-position:20px 120px ,0px 0px ,20px 20px  ;
     background-repeat: no-repeat;
@@ -47,7 +47,8 @@ button {
     height: 40px;
     color: hsl(257, 40%, 49%);
     background-color: white;
-    box-shadow: 5px 10px hsl(257, 40%, 49%);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+    font-size: 18px;
 }
 
 .social-icon {
@@ -81,7 +82,7 @@ i:hover {
 
     .background-container  {
         background-color: hsl(257, 40%, 49%);
-        background-image: url(../images/illustration-mockups.svg),url(../images/bg-mobile.svg) , url(../images/logo.svg) ;
+        background-image: url(/images/illustration-mockups.svg),url(/images/bg-mobile.svg) , url(/images/logo.svg) ;
         background-size: 280px,contain,200px ;
         background-position:10px 120px ,0px 0px ,20px 20px  ;
         background-repeat: no-repeat;
