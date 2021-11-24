@@ -59,3 +59,56 @@ button {
     font-size: 20px;
     color: white;
 }
+button:hover  {
+    background-color: hsl(300, 69%, 71%);
+}
+
+i:hover {
+    color:hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 375px) {
+    
+.principal-containe {
+    background-color: #d7cdcd;
+    width: 375px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 1000px;
+}
+
+    .background-container  {
+        background-color: hsl(257, 40%, 49%);
+        background-image: url(/images/illustration-mockups.svg),url(/images/bg-mobile.svg) , url(/images/logo.svg) ;
+        background-size: 280px,contain,200px ;
+        background-position:10px 120px ,0px 0px ,20px 20px  ;
+        background-repeat: no-repeat;
+        width: 90%;
+        height: 90%;
+        position: relative;
+        left: 5%;
+        top: 5%;
+    }
+    .text_area {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        left: 0%;
+        top: 40%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: white;
+        line-height: 1.8;
+    }
+    .social-icon {
+        position: relative;
+        display: flex;
+        left: 40%;
+        top: 52%;
+        gap: 10px;
+        font-size: 20px;
+        color: white;
+    }
+}
